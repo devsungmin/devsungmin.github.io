@@ -1,6 +1,6 @@
-title: Your awesome title
+title: Kim Sung Min Portfolio Site
 author: GitHub User
-email: your-email@domain.com
+email: kimsungmin.dev@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,17 +12,17 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Kim Sung Min
+  tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    facebook: kimsungmin.dev
+    github:  devsungmin
+    linkedIn: in/devsungmin
+    instagram: devsungmin
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
