@@ -12,7 +12,7 @@
 			<ul class="social">
 				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
-				<a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="fa fa-facebook-squared"></i></li></a>
+				<a href="https://www.facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="icon-facebook-squared"></i></li></a>
 			</ul>
 			<p>&copy; 2019</p>
 		</section>
@@ -20,15 +20,6 @@
 			{{ content }}
 		</section>
 	</main>
-	{%- if site.plainwhite.analytics_id -%}
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
-	{%- endif -%}
+	{% comment %} 애널리틱스 추가 {% endcomment %}
 </body>
 </html>
