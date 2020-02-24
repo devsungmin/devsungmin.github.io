@@ -7,6 +7,8 @@ description: > # this means to ignore newlines until "show_exerpts:"
   구현 가능 언어는 C / Java / Python 입니다.
 show_excerpts: true # set to true to show excerpts on the homepage
 
+timezone: Asia/Seoul
+
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
